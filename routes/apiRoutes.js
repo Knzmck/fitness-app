@@ -22,15 +22,17 @@ router.get("/api/workouts", (req, res) => {
         }
     });
 });
-
+// Need help fixing validation error
 router.put("/api/workouts/:id", ({ body, params }, res) => {
     console.log(body, params);
     Workout.findByIdAndUpdate(
         params.id,
         { $push: { exercises: body } },
-        { new: true }
+        { new: true, runValidators: true }
     )
-        .then(data => res.json(data))
+        .then(dbWorkout => {
+            res.json(dbWorkout)
+        })
         .catch(err => {
             console.log("err", err)
             res.json(err)
@@ -38,14 +40,22 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 router.delete("/api/workouts/:id", ({ body, params }, res) => {
-    console.log(body, params);
     Workout.findOneAndRemove(
         { _id: params.id }
     )
-        .then(data => res.json(data))
+        .then(dbWorkout => res.json(dbWorkout))
         .catch(err => {
             console.log("err", err)
             res.json(err)
         })
 });
+
+router.get("/api/workouts/range", (req, res) => {
+    Workout.create({})
+        .then(dbWorkout => res.json(dbWorkout))
+        .catch(err => {
+            console.log("err", err)
+            res.json(err)
+        })
+})
 module.exports = router;
