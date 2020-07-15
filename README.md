@@ -4,15 +4,7 @@ For this assignment, you'll create a workout tracker. You have already been prov
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-
-## Business Context
-
-A consumer will reach their fitness goals quicker when they track their workout progress.
-
-## Acceptance Criteria
-
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.  
 
 The user should be able to:
 
@@ -20,32 +12,29 @@ The user should be able to:
 
   * Add new exercises to a new workout plan.
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+  * View multiple the combined weight of multiple exercises on the `stats` page.  
 
-## Commit Early and Often
+## Business Context
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+A consumer will reach their fitness goals quicker when they track their workout progress.  
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Deployed App  
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+[View Demo](https://workin-out.herokuapp.com/)  
 
-Follow these guidelines for committing:
+## Developer   
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">   
+   </div>  
+   Kenzie Schutz   
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+  ## Questions   
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+   Please direct all questions the developer to github user Knzmck.   
 
-* Test your application before you commit to ensure functionality at every step in the development process
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  
 
-## Submission on BCS
 
-You are required to submit the following:
 
-* The URL to the deployed application
-
-* The URL to the Github repository
