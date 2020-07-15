@@ -51,7 +51,7 @@ router.delete("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 router.get("/api/workouts/range", (req, res) => {
-    Workout.create({})
+    Workout.find({})
         .then(dbWorkout => res.json(dbWorkout))
         .catch(err => {
             console.log("err", err)
