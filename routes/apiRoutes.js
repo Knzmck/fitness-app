@@ -24,11 +24,23 @@ router.get("/api/workouts", (req, res) => {
 });
 
 router.put("/api/workouts/:id", ({ body, params }, res) => {
-    console.log(body,params);
+    console.log(body, params);
     Workout.findByIdAndUpdate(
         params.id,
         { $push: { exercises: body } },
-        { new: true}
+        { new: true }
+    )
+        .then(data => res.json(data))
+        .catch(err => {
+            console.log("err", err)
+            res.json(err)
+        })
+});
+
+router.delete("/api/workouts/:id", ({ body, params }, res) => {
+    console.log(body, params);
+    Workout.findOneAndRemove(
+        { _id: params.id }
     )
         .then(data => res.json(data))
         .catch(err => {
