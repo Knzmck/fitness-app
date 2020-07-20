@@ -13,13 +13,29 @@ The user should be able to:
 
   * View multiple the combined weight of multiple exercises on the `stats` page.  
 
-## Business Context
+## Business Context  
 
 A consumer will reach their fitness goals quicker when they track their workout progress.  
 
-## Deployed App  
 
-[View Demo](https://workin-out.herokuapp.com/)  
+## App in action  
+
+### Homepage  
+
+(homepage.PNG)  
+
+### Adding a cardio workout  
+
+(addcardio.PNG)  
+
+### Adding a resistance workout  
+
+(addresistance.PNG)  
+
+### Workout Dashboard  
+
+(dashboard.PNG)  
+
 
 ## Developer   
 
