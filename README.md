@@ -1,55 +1,93 @@
 # Workout Tracker  
 
+## Table of Contents  
+* [User Story](#user-story)  
+* [Business Context](#business-context)  
+* [Technologies](#technologies)  
+* [Installation](#installation)  
+* [App in Action](#app-in-action)  
+* [Developer](#developer)  
+* [Questions](#Questions)  
+
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.  
+- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 The user should be able to:
 
-  * Add exercises to a previous workout plan.
+- Add exercises to a previous workout plan.
 
-  * Add new exercises to a new workout plan.
+- Add new exercises to a new workout plan.
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.  
+- View multiple the combined weight of multiple exercises on the `stats` page.
 
-## Business Context  
+## Business Context
 
-A consumer will reach their fitness goals quicker when they track their workout progress.  
+A consumer will reach their fitness goals quicker when they track their workout progress.
 
+## Technologies
 
-## App in action  
+- Mongo DB
 
-### Homepage  
+- Mongoose
+
+- Node
+
+- JQuery
+
+- HTML, CSS & Javascript
+
+## Installation  
+
+To install necessary dependencies, run the following command in the root folder of this application
+
+```
+npm i
+```
+
+To run the program, run
+
+```
+npm start
+```
+
+To seed the database, run
+
+```
+npm run seed
+```
+
+## App in action
+
+### Homepage
 
  <img src= "homepg.PNG">
 
-### Adding a cardio workout  
+### Adding a cardio workout
 
-<img src="addcardio.PNG">  
+<img src="addcardio.PNG">
 
-### Adding a resistance workout  
+### Adding a resistance workout
 
 <img src="addresistance.PNG">
 
-### Workout Dashboard  
+### Workout Dashboard
 
 <img src="dashboard.PNG">
 
 
-## Developer   
+## Developer
 
    <div class="CircleBadge CircleBadge--medium bg-gray-dark">
-   <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">   
-   </div>  
-   Kenzie Schutz   
+   <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">
+   </div>
+   Kenzie Schutz
 
-  ## Questions   
+## Questions
 
-   Please direct all questions the developer to github user Knzmck.   
-
-
-   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)  
+   Please direct all questions the developer to github user Knzmck.
 
 
-
+   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+```
