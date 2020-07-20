@@ -22,7 +22,7 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 ### Homepage  
 
-(homepage.PNG)  
+ <img src= "homepage.PNG">
 
 ### Adding a cardio workout  
 
