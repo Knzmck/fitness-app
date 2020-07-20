@@ -26,15 +26,15 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 ### Adding a cardio workout  
 
-(addcardio.PNG)  
+<img src="addcardio.PNG">  
 
 ### Adding a resistance workout  
 
-(addresistance.PNG)  
+<img src="addresistance.PNG">
 
 ### Workout Dashboard  
 
-(dashboard.PNG)  
+<img src="dashboard.PNG">
 
 
 ## Developer   
