@@ -60,6 +60,8 @@ npm run seed
 
 ## App in action
 
+### [View Demo](https://workin-out.herokuapp.com/)
+
 ### Homepage
 
  <img src= "homepg.PNG">
